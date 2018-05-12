@@ -4,8 +4,11 @@
     list-style: none;
     /*margin-right: 10px;*/
     padding: 10px;
+    /*padding-right:10px;*/
+    padding-top:30px;
     color:white;
     font-weight:bold;
+    margin:0 30px;
 
 
 }
@@ -13,44 +16,54 @@
 {
     float: left;
     font-weight:normal;
+    padding-left: 0;
+    font-size: 18px;
+}
+.navList li:first-child
+{
+    padding-right: 35px;
 }
 
-header
+.bgHeader
 {
     background-color: black;
-    height: 90px;
+    height: 80px;
 }
 .navSpan
 {
-    color: cyan;
+    color: rgb(39,199,171);
 }
 
 ul
 {
-    padding-top: 25px;
     overflow: hidden;
 }
 .container
 {
-  height: 100px:
+    height: 150px;
+    /*padding: 30px;*/
+    margin:50px;
+    text-align:center;
+    border: 1px solid red;
 }
 
 .imgOneSection
 {
 background-image:url("black_chair.png");
-    width: 50%;
+    width: 40%;
     height: 500px;
     background-position:left;
-
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 150px;
+    /*margin-top: 130px;*/
+    /*margin-right: 10px;*/
     float: left;
 
 }
 .bgSectionOne {
     overflow: hidden;
+    margin-top: 120px;
 
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+27,ededed+75 */
     background: rgb(255, 255, 255); /* Old browsers */
@@ -61,8 +74,56 @@ background-image:url("black_chair.png");
 }
 .textSectionOne{
 
-    font-weight:bold;
     font-size:20px;
     float: left;
-    width: 50%;
+    width:40%;
+    text-align: center;
+    /*margin-top: 130px;*/
+    line-height: 1.5;
+
+
+}
+
+.textSectionOne h1
+{
+    font-size: 45px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.textSectionOne span
+{
+    color:rgb(39,199,171);
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.buttonFirst
+{
+    background-color:rgb(39,199,171);
+    font-size:25px;
+    color: white;
+    border-radius:20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    height:50px;
+    width: 240px;
+    padding-top: 14px;
+}
+
+.greaterSignLeft
+{
+    /*position: relative;*/
+    display: inline-block;
+    float: left;
+    height: 500px;
+    text-align: center;
+
+
+}
+
+.greaterSignRight
+{
+    float: right;
+    display: inline-block;
 }
